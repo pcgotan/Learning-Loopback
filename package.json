@@ -69,6 +69,7 @@
     "@loopback/service-proxy": "^3.2.1",
     "axios": "^0.21.1",
     "loopback-connector-postgresql": "^5.4.0",
+    "loopback-connector-rest": "^3.7.0",
     "nodemon": "^2.0.7",
     "tslib": "^2.0.0"
   },

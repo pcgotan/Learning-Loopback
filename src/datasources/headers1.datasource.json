@@ -1,0 +1,23 @@
+{
+  "name": "restds",
+  "connector": "rest",
+  "baseURL": "http://httpbin.org/get",
+  "crud": false,
+  "options": {
+    "headers": {
+      "accept": "application/json",
+      "content-type": "application/json"
+    }
+  },
+  "operations": [
+    {
+      "template": {
+        "method": "GET",
+        "url": "http://httpbin.org/get"
+      },
+      "functions": {
+        "getHeader": []
+      }
+    }
+  ]
+}
